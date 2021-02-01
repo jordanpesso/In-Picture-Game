@@ -1,0 +1,47 @@
+
+
+.h1 {
+    text-align: center;
+}
+
+
+.main-container {
+    background-color: rgb(127, 170, 187);
+    height: 500px;
+    width: 700px;
+    margin: 100px;
+}
+
+.questions-area {
+    height: 300px;
+    padding: 30px;
+    position:center;
+}
+
+.question-images {
+    height: 200px;
+    display: inline-block;
+    align-content: center;
+
+
+}
+
+.button {
+    /* width:50%;
+    display:list-item; */
+    width: 300px;
+    height: 80px;
+    background:rgb(132, 190, 229);
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.restart {
+    background-color: rgb(125, 233, 125);
+}
+
+.displaynone {
+    display: none;
+}
+

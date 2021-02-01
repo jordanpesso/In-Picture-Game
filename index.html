@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="inPicture.css">
+
+</head>
+
+<body onload="init()">
+    <h1>think your smart?</h1>
+    <!-- <button onclick="startPlay()">bring it on</button> -->
+    <div class="main-container">
+        <div class="questions-area">
+            <img class="question-images" src="" alt="taj">
+        </div>
+        <div class="answers">
+            <button class="button" onclick="checkAns(0)">ans0</button>
+            <button class="button" onclick="checkAns(1)">ans1</button>                
+        </div>
+        <div class="victorious displaynone">
+            <p>you won!, your score is: <span class="score"></span></p>
+            
+            <button class= "button restart" onclick="restatGame()">let's try again</button> </div>
+    </div>
+
+
+
+
+        <script src="inPic.js"></script>
+</body>
+
+</html>
+<!-- <body onload="init()"></body> -->
